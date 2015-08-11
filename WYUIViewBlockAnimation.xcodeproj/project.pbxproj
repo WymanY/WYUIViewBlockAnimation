@@ -14,6 +14,7 @@
 		2E03B1AC1B79D1C500AE2C4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */; };
 		2E03B1AF1B79D1C500AE2C4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */; };
 		2E03B1BB1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1BA1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m */; };
+		2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2E03B1B41B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYUIViewBlockAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E03B1B91B79D1C500AE2C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E03B1BA1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYUIViewBlockAnimationTests.m; sourceTree = "<group>"; };
+		2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		2E03B19D1B79D1C400AE2C4B /* WYUIViewBlockAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */,
+				2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */,
 				2E03B1A21B79D1C500AE2C4B /* AppDelegate.h */,
 				2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */,
 				2E03B1A51B79D1C500AE2C4B /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				2E03B1A71B79D1C500AE2C4B /* ViewController.m in Sources */,
 				2E03B1A41B79D1C500AE2C4B /* AppDelegate.m in Sources */,
+				2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */,
 				2E03B1A11B79D1C400AE2C4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
