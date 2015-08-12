@@ -9,6 +9,7 @@
 #import "WYAnimationLIstViewController.h"
 #import "WYKeyframeAnimationViewController.h"
 #import "WYTransitionBlockViewController.h"
+#import "WYTransitionLayerViewController.h"
 static NSString *const kcellIdentifier = @"cellIdentifier";
 
 @interface WYAnimationLIstViewController ()
@@ -24,9 +25,9 @@ static NSString *const kcellIdentifier = @"cellIdentifier";
 - (NSArray *)items
 {
     if (_items == nil) {
-        _items = @[@[@"keyFrame",[WYKeyframeAnimationViewController class]],
-                   @[@"viewTransition",[WYTransitionBlockViewController class]],
-//                   @[@"transition block Animation",@"keyFrameAnimationBlock"],
+        _items = @[@[@"关键帧动画",[WYKeyframeAnimationViewController class]],
+                   @[@"view block 转场",[WYTransitionBlockViewController class]],
+                   @[@"layer 转场",[WYTransitionLayerViewController class]],
 //                   @[@"keyFrame AnimationBlock",@"keyFrameAnimationBlock"],
 //                   @[@"keyFrame AnimationBlock",@"keyFrameAnimationBlock"],
                    ];

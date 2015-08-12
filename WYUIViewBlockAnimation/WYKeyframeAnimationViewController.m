@@ -67,14 +67,14 @@
     [UIView animateKeyframesWithDuration:5.0 delay:0.0 options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
         //
         [UIView addKeyframeWithRelativeStartTime:0.0 relativeDuration:1/4.0 animations:^{
-            self.blackView.width+= 100;
+            self.blackView.width+= 50;
         }];
         [UIView addKeyframeWithRelativeStartTime:1/3.0 relativeDuration:3/8.0 animations:^{
             self.blackView.x+= 100;
         }];
-        [UIView addKeyframeWithRelativeStartTime:2/3.0 relativeDuration:3/8.0
+        [UIView addKeyframeWithRelativeStartTime:2/3.0 relativeDuration:1/3.0
                                       animations:^{
-            self.blackView.transform = CGAffineTransformMakeRotation(0.5);
+            self.blackView.transform = CGAffineTransformMakeRotation(1);
         }];
         
     } completion:nil];

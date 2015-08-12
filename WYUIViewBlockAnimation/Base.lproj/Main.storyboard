@@ -20,7 +20,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0N1-SK-fA3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="442" y="221"/>
+            <point key="canvasLocation" x="90" y="147"/>
         </scene>
         <!--AnimationList-->
         <scene sceneID="jho-dw-Bsh">
@@ -48,6 +48,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cFO-7j-F91" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="824" y="141"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yUn-XU-Gab">
+            <objects>
+                <viewController id="EuR-K8-Z2C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bxz-ay-aVI"/>
+                        <viewControllerLayoutGuide type="bottom" id="YdR-Lz-dsF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bav-34-m1h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XkW-mv-7Ox">
+                                <rect key="frame" x="74" y="241" width="600" height="162"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="amM-HY-F5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="733" y="839"/>
         </scene>
     </scenes>
 </document>

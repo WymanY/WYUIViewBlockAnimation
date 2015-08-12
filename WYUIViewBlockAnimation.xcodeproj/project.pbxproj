@@ -17,6 +17,7 @@
 		2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */; };
 		2EAE07651B7AD69800F73C9A /* WYAnimationLIstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */; };
 		2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */; };
+		2EAE07731B7B01F700F73C9A /* WYTransitionLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		2EAE07691B7AE14300F73C9A /* WYTransitionBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTransitionBlockViewController.h; sourceTree = "<group>"; };
 		2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTransitionBlockViewController.m; sourceTree = "<group>"; };
 		2EAE076C1B7AE25E00F73C9A /* ViewAnimationPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnimationPrefix.pch; sourceTree = "<group>"; };
+		2EAE07711B7B01F700F73C9A /* WYTransitionLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTransitionLayerViewController.h; sourceTree = "<group>"; };
+		2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTransitionLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,7 @@
 		2EAE075E1B7AD5F500F73C9A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2EAE07701B7B01CF00F73C9A /* WYTransitionLayerViewController */,
 				2EAE07681B7AE10D00F73C9A /* WYTransitionBlockViewController */,
 				2EAE07661B7AD85600F73C9A /* WYKeyframeAnimationViewController */,
 				2EAE07611B7AD64B00F73C9A /* WYAnimationLIstViewController */,
@@ -198,6 +202,15 @@
 				2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */,
 			);
 			name = WYTransitionBlockViewController;
+			sourceTree = "<group>";
+		};
+		2EAE07701B7B01CF00F73C9A /* WYTransitionLayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE07711B7B01F700F73C9A /* WYTransitionLayerViewController.h */,
+				2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */,
+			);
+			name = WYTransitionLayerViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +316,7 @@
 				2E03B1A71B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m in Sources */,
 				2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */,
 				2E03B1A41B79D1C500AE2C4B /* AppDelegate.m in Sources */,
+				2EAE07731B7B01F700F73C9A /* WYTransitionLayerViewController.m in Sources */,
 				2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */,
 				2E03B1A11B79D1C400AE2C4B /* main.m in Sources */,
 				2EAE07651B7AD69800F73C9A /* WYAnimationLIstViewController.m in Sources */,
