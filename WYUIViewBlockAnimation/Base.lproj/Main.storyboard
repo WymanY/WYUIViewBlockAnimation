@@ -4,51 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1B2-tt-7QF">
-                                <rect key="frame" x="272" y="502" width="57" height="30"/>
-                                <state key="normal" title="Animate">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="animationBegin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gjV-hf-Bv0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWX-Dj-L6M">
-                                <rect key="frame" x="280" y="550" width="40" height="30"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdM-UD-7ii"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="1B2-tt-7QF" secondAttribute="centerX" id="1zd-ce-xNQ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1B2-tt-7QF" secondAttribute="bottom" constant="68" id="GtI-gd-BRS"/>
-                            <constraint firstAttribute="centerX" secondItem="fWX-Dj-L6M" secondAttribute="centerX" id="HIi-bL-jki"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fWX-Dj-L6M" secondAttribute="bottom" constant="20" id="bPO-tb-Akt"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="dfb-MR-FMt"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2083" y="115"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="IJh-fD-y4F">
             <objects>
@@ -67,16 +22,16 @@
             </objects>
             <point key="canvasLocation" x="442" y="221"/>
         </scene>
-        <!--Table View Controller-->
+        <!--AnimationList-->
         <scene sceneID="jho-dw-Bsh">
             <objects>
-                <tableViewController id="UV1-0C-krn" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="xbj-Db-YoA">
+                <tableViewController title="AnimationList" id="UV1-0C-krn" customClass="WYAnimationLIstViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" id="xbj-Db-YoA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aee-Hw-P9G">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIdentifier" id="aee-Hw-P9G">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aee-Hw-P9G" id="dNd-EN-3ki">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -88,11 +43,11 @@
                             <outlet property="delegate" destination="UV1-0C-krn" id="Cg6-fE-ocE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="DiX-zo-S8d"/>
+                    <navigationItem key="navigationItem" title="AnimationList" id="DiX-zo-S8d"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cFO-7j-F91" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1358" y="164"/>
+            <point key="canvasLocation" x="824" y="141"/>
         </scene>
     </scenes>
 </document>

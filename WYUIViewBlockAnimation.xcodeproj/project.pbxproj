@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		2E03B1A11B79D1C400AE2C4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1A01B79D1C400AE2C4B /* main.m */; };
 		2E03B1A41B79D1C500AE2C4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */; };
-		2E03B1A71B79D1C500AE2C4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1A61B79D1C500AE2C4B /* ViewController.m */; };
+		2E03B1A71B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1A61B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m */; };
 		2E03B1AA1B79D1C500AE2C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1A81B79D1C500AE2C4B /* Main.storyboard */; };
 		2E03B1AC1B79D1C500AE2C4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */; };
 		2E03B1AF1B79D1C500AE2C4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */; };
 		2E03B1BB1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1BA1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m */; };
 		2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */; };
+		2EAE07651B7AD69800F73C9A /* WYAnimationLIstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */; };
+		2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +35,8 @@
 		2E03B1A01B79D1C400AE2C4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E03B1A21B79D1C500AE2C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E03B1A51B79D1C500AE2C4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E03B1A61B79D1C500AE2C4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E03B1A51B79D1C500AE2C4B /* WYKeyframeAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		2E03B1A61B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYKeyframeAnimationViewController.m; sourceTree = "<group>"; };
 		2E03B1A91B79D1C500AE2C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E03B1AE1B79D1C500AE2C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +45,11 @@
 		2E03B1BA1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYUIViewBlockAnimationTests.m; sourceTree = "<group>"; };
 		2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2EAE07631B7AD69800F73C9A /* WYAnimationLIstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYAnimationLIstViewController.h; path = WYAnimationLIstViewController/WYAnimationLIstViewController.h; sourceTree = "<group>"; };
+		2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYAnimationLIstViewController.m; path = WYAnimationLIstViewController/WYAnimationLIstViewController.m; sourceTree = "<group>"; };
+		2EAE07691B7AE14300F73C9A /* WYTransitionBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTransitionBlockViewController.h; sourceTree = "<group>"; };
+		2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTransitionBlockViewController.m; sourceTree = "<group>"; };
+		2EAE076C1B7AE25E00F73C9A /* ViewAnimationPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnimationPrefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,7 @@
 		2E03B19D1B79D1C400AE2C4B /* WYUIViewBlockAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2EAE07671B7ADA0F00F73C9A /* View */,
 				2EAE075F1B7AD60200F73C9A /* Assets */,
 				2EAE075E1B7AD5F500F73C9A /* ViewControllers */,
 				2EAE075D1B7ACD4700F73C9A /* Category */,
@@ -99,6 +107,7 @@
 				2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */,
 				2E03B19F1B79D1C400AE2C4B /* Info.plist */,
 				2E03B1A01B79D1C400AE2C4B /* main.m */,
+				2EAE076C1B7AE25E00F73C9A /* ViewAnimationPrefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,8 +141,9 @@
 		2EAE075E1B7AD5F500F73C9A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				2E03B1A51B79D1C500AE2C4B /* ViewController.h */,
-				2E03B1A61B79D1C500AE2C4B /* ViewController.m */,
+				2EAE07681B7AE10D00F73C9A /* WYTransitionBlockViewController */,
+				2EAE07661B7AD85600F73C9A /* WYKeyframeAnimationViewController */,
+				2EAE07611B7AD64B00F73C9A /* WYAnimationLIstViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -154,6 +164,40 @@
 				2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */,
 			);
 			name = Xib;
+			sourceTree = "<group>";
+		};
+		2EAE07611B7AD64B00F73C9A /* WYAnimationLIstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE07631B7AD69800F73C9A /* WYAnimationLIstViewController.h */,
+				2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */,
+			);
+			name = WYAnimationLIstViewController;
+			sourceTree = "<group>";
+		};
+		2EAE07661B7AD85600F73C9A /* WYKeyframeAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E03B1A51B79D1C500AE2C4B /* WYKeyframeAnimationViewController.h */,
+				2E03B1A61B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m */,
+			);
+			name = WYKeyframeAnimationViewController;
+			sourceTree = "<group>";
+		};
+		2EAE07671B7ADA0F00F73C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2EAE07681B7AE10D00F73C9A /* WYTransitionBlockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE07691B7AE14300F73C9A /* WYTransitionBlockViewController.h */,
+				2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */,
+			);
+			name = WYTransitionBlockViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,10 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E03B1A71B79D1C500AE2C4B /* ViewController.m in Sources */,
+				2E03B1A71B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m in Sources */,
+				2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */,
 				2E03B1A41B79D1C500AE2C4B /* AppDelegate.m in Sources */,
 				2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */,
 				2E03B1A11B79D1C400AE2C4B /* main.m in Sources */,
+				2EAE07651B7AD69800F73C9A /* WYAnimationLIstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +433,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WYUIViewBlockAnimation/ViewAnimationPrefix.pch";
 				INFOPLIST_FILE = WYUIViewBlockAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +445,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WYUIViewBlockAnimation/ViewAnimationPrefix.pch";
 				INFOPLIST_FILE = WYUIViewBlockAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
