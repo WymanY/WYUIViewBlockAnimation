@@ -84,15 +84,9 @@
 		2E03B19D1B79D1C400AE2C4B /* WYUIViewBlockAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */,
-				2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */,
-				2E03B1A21B79D1C500AE2C4B /* AppDelegate.h */,
-				2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */,
-				2E03B1A51B79D1C500AE2C4B /* ViewController.h */,
-				2E03B1A61B79D1C500AE2C4B /* ViewController.m */,
-				2E03B1A81B79D1C500AE2C4B /* Main.storyboard */,
-				2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */,
-				2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */,
+				2EAE075F1B7AD60200F73C9A /* Assets */,
+				2EAE075E1B7AD5F500F73C9A /* ViewControllers */,
+				2EAE075D1B7ACD4700F73C9A /* Category */,
 				2E03B19E1B79D1C400AE2C4B /* Supporting Files */,
 			);
 			path = WYUIViewBlockAnimation;
@@ -101,6 +95,8 @@
 		2E03B19E1B79D1C400AE2C4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E03B1A21B79D1C500AE2C4B /* AppDelegate.h */,
+				2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */,
 				2E03B19F1B79D1C400AE2C4B /* Info.plist */,
 				2E03B1A01B79D1C400AE2C4B /* main.m */,
 			);
@@ -122,6 +118,42 @@
 				2E03B1B91B79D1C500AE2C4B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EAE075D1B7ACD4700F73C9A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */,
+				2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		2EAE075E1B7AD5F500F73C9A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E03B1A51B79D1C500AE2C4B /* ViewController.h */,
+				2E03B1A61B79D1C500AE2C4B /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2EAE075F1B7AD60200F73C9A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE07601B7AD61500F73C9A /* Xib */,
+				2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		2EAE07601B7AD61500F73C9A /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				2E03B1A81B79D1C500AE2C4B /* Main.storyboard */,
+				2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */,
+			);
+			name = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +456,7 @@
 				2E03B1C01B79D1C500AE2C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E03B1C11B79D1C500AE2C4B /* Build configuration list for PBXNativeTarget "WYUIViewBlockAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +465,7 @@
 				2E03B1C31B79D1C500AE2C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
