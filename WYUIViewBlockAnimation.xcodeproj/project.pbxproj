@@ -18,6 +18,11 @@
 		2EAE07651B7AD69800F73C9A /* WYAnimationLIstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */; };
 		2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */; };
 		2EAE07731B7B01F700F73C9A /* WYTransitionLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */; };
+		2EAE07761B7B354C00F73C9A /* WYCIFilterTransitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07751B7B354C00F73C9A /* WYCIFilterTransitonViewController.m */; };
+		2EAE077A1B7B365900F73C9A /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07791B7B365900F73C9A /* UIView+BlockGesture.m */; };
+		2EAE077E1B7B36AF00F73C9A /* TransitionImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE077D1B7B36AF00F73C9A /* TransitionImageView.m */; };
+		2EAE07891B7B3BE600F73C9A /* Photo1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE07871B7B3BE600F73C9A /* Photo1@2x.jpg */; };
+		2EAE078A1B7B3BE600F73C9A /* Photo2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE07881B7B3BE600F73C9A /* Photo2@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,14 @@
 		2EAE076C1B7AE25E00F73C9A /* ViewAnimationPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnimationPrefix.pch; sourceTree = "<group>"; };
 		2EAE07711B7B01F700F73C9A /* WYTransitionLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTransitionLayerViewController.h; sourceTree = "<group>"; };
 		2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTransitionLayerViewController.m; sourceTree = "<group>"; };
+		2EAE07741B7B354C00F73C9A /* WYCIFilterTransitonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCIFilterTransitonViewController.h; sourceTree = "<group>"; };
+		2EAE07751B7B354C00F73C9A /* WYCIFilterTransitonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCIFilterTransitonViewController.m; sourceTree = "<group>"; };
+		2EAE07781B7B365900F73C9A /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
+		2EAE07791B7B365900F73C9A /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
+		2EAE077C1B7B36AF00F73C9A /* TransitionImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionImageView.h; sourceTree = "<group>"; };
+		2EAE077D1B7B36AF00F73C9A /* TransitionImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionImageView.m; sourceTree = "<group>"; };
+		2EAE07871B7B3BE600F73C9A /* Photo1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo1@2x.jpg"; sourceTree = "<group>"; };
+		2EAE07881B7B3BE600F73C9A /* Photo2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo2@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +150,8 @@
 			children = (
 				2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */,
 				2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */,
+				2EAE07781B7B365900F73C9A /* UIView+BlockGesture.h */,
+				2EAE07791B7B365900F73C9A /* UIView+BlockGesture.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -144,6 +159,7 @@
 		2EAE075E1B7AD5F500F73C9A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2EAE07771B7B355000F73C9A /* WYCIFilterTransitonViewController */,
 				2EAE07701B7B01CF00F73C9A /* WYTransitionLayerViewController */,
 				2EAE07681B7AE10D00F73C9A /* WYTransitionBlockViewController */,
 				2EAE07661B7AD85600F73C9A /* WYKeyframeAnimationViewController */,
@@ -155,6 +171,8 @@
 		2EAE075F1B7AD60200F73C9A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2EAE07871B7B3BE600F73C9A /* Photo1@2x.jpg */,
+				2EAE07881B7B3BE600F73C9A /* Photo2@2x.jpg */,
 				2EAE07601B7AD61500F73C9A /* Xib */,
 				2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */,
 			);
@@ -191,6 +209,7 @@
 		2EAE07671B7ADA0F00F73C9A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2EAE077B1B7B369D00F73C9A /* TransitionImageView */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -211,6 +230,24 @@
 				2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */,
 			);
 			name = WYTransitionLayerViewController;
+			sourceTree = "<group>";
+		};
+		2EAE07771B7B355000F73C9A /* WYCIFilterTransitonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE07741B7B354C00F73C9A /* WYCIFilterTransitonViewController.h */,
+				2EAE07751B7B354C00F73C9A /* WYCIFilterTransitonViewController.m */,
+			);
+			name = WYCIFilterTransitonViewController;
+			sourceTree = "<group>";
+		};
+		2EAE077B1B7B369D00F73C9A /* TransitionImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE077C1B7B36AF00F73C9A /* TransitionImageView.h */,
+				2EAE077D1B7B36AF00F73C9A /* TransitionImageView.m */,
+			);
+			name = TransitionImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +331,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E03B1AA1B79D1C500AE2C4B /* Main.storyboard in Resources */,
+				2EAE07891B7B3BE600F73C9A /* Photo1@2x.jpg in Resources */,
 				2E03B1AF1B79D1C500AE2C4B /* LaunchScreen.xib in Resources */,
+				2EAE078A1B7B3BE600F73C9A /* Photo2@2x.jpg in Resources */,
 				2E03B1AC1B79D1C500AE2C4B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +352,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EAE077A1B7B365900F73C9A /* UIView+BlockGesture.m in Sources */,
 				2E03B1A71B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m in Sources */,
+				2EAE07761B7B354C00F73C9A /* WYCIFilterTransitonViewController.m in Sources */,
+				2EAE077E1B7B36AF00F73C9A /* TransitionImageView.m in Sources */,
 				2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */,
 				2E03B1A41B79D1C500AE2C4B /* AppDelegate.m in Sources */,
 				2EAE07731B7B01F700F73C9A /* WYTransitionLayerViewController.m in Sources */,
