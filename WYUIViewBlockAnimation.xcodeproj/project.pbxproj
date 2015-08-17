@@ -1,579 +1,1317 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		2E03B1A11B79D1C400AE2C4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1A01B79D1C400AE2C4B /* main.m */; };
-		2E03B1A41B79D1C500AE2C4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */; };
-		2E03B1A71B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1A61B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m */; };
-		2E03B1AA1B79D1C500AE2C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1A81B79D1C500AE2C4B /* Main.storyboard */; };
-		2E03B1AC1B79D1C500AE2C4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */; };
-		2E03B1AF1B79D1C500AE2C4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */; };
-		2E03B1BB1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1BA1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m */; };
-		2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */; };
-		2EAE07651B7AD69800F73C9A /* WYAnimationLIstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */; };
-		2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */; };
-		2EAE07731B7B01F700F73C9A /* WYTransitionLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */; };
-		2EAE07761B7B354C00F73C9A /* WYCIFilterTransitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07751B7B354C00F73C9A /* WYCIFilterTransitonViewController.m */; };
-		2EAE077A1B7B365900F73C9A /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE07791B7B365900F73C9A /* UIView+BlockGesture.m */; };
-		2EAE077E1B7B36AF00F73C9A /* TransitionImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE077D1B7B36AF00F73C9A /* TransitionImageView.m */; };
-		2EAE07891B7B3BE600F73C9A /* Photo1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE07871B7B3BE600F73C9A /* Photo1@2x.jpg */; };
-		2EAE078A1B7B3BE600F73C9A /* Photo2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EAE07881B7B3BE600F73C9A /* Photo2@2x.jpg */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2E03B1B51B79D1C500AE2C4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E03B1931B79D1C400AE2C4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E03B19A1B79D1C400AE2C4B;
-			remoteInfo = WYUIViewBlockAnimation;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		2E03B19B1B79D1C400AE2C4B /* WYUIViewBlockAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYUIViewBlockAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E03B19F1B79D1C400AE2C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E03B1A01B79D1C400AE2C4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E03B1A21B79D1C500AE2C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E03B1A51B79D1C500AE2C4B /* WYKeyframeAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYKeyframeAnimationViewController.h; sourceTree = "<group>"; };
-		2E03B1A61B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYKeyframeAnimationViewController.m; sourceTree = "<group>"; };
-		2E03B1A91B79D1C500AE2C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2E03B1AE1B79D1C500AE2C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2E03B1B41B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYUIViewBlockAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E03B1B91B79D1C500AE2C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E03B1BA1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYUIViewBlockAnimationTests.m; sourceTree = "<group>"; };
-		2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		2EAE07631B7AD69800F73C9A /* WYAnimationLIstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYAnimationLIstViewController.h; path = WYAnimationLIstViewController/WYAnimationLIstViewController.h; sourceTree = "<group>"; };
-		2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYAnimationLIstViewController.m; path = WYAnimationLIstViewController/WYAnimationLIstViewController.m; sourceTree = "<group>"; };
-		2EAE07691B7AE14300F73C9A /* WYTransitionBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTransitionBlockViewController.h; sourceTree = "<group>"; };
-		2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTransitionBlockViewController.m; sourceTree = "<group>"; };
-		2EAE076C1B7AE25E00F73C9A /* ViewAnimationPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnimationPrefix.pch; sourceTree = "<group>"; };
-		2EAE07711B7B01F700F73C9A /* WYTransitionLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTransitionLayerViewController.h; sourceTree = "<group>"; };
-		2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTransitionLayerViewController.m; sourceTree = "<group>"; };
-		2EAE07741B7B354C00F73C9A /* WYCIFilterTransitonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCIFilterTransitonViewController.h; sourceTree = "<group>"; };
-		2EAE07751B7B354C00F73C9A /* WYCIFilterTransitonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCIFilterTransitonViewController.m; sourceTree = "<group>"; };
-		2EAE07781B7B365900F73C9A /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
-		2EAE07791B7B365900F73C9A /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
-		2EAE077C1B7B36AF00F73C9A /* TransitionImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionImageView.h; sourceTree = "<group>"; };
-		2EAE077D1B7B36AF00F73C9A /* TransitionImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionImageView.m; sourceTree = "<group>"; };
-		2EAE07871B7B3BE600F73C9A /* Photo1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo1@2x.jpg"; sourceTree = "<group>"; };
-		2EAE07881B7B3BE600F73C9A /* Photo2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo2@2x.jpg"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		2E03B1981B79D1C400AE2C4B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E03B1B11B79D1C500AE2C4B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		2E03B1921B79D1C400AE2C4B = {
-			isa = PBXGroup;
-			children = (
-				2E03B19D1B79D1C400AE2C4B /* WYUIViewBlockAnimation */,
-				2E03B1B71B79D1C500AE2C4B /* WYUIViewBlockAnimationTests */,
-				2E03B19C1B79D1C400AE2C4B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		2E03B19C1B79D1C400AE2C4B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2E03B19B1B79D1C400AE2C4B /* WYUIViewBlockAnimation.app */,
-				2E03B1B41B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2E03B19D1B79D1C400AE2C4B /* WYUIViewBlockAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE07671B7ADA0F00F73C9A /* View */,
-				2EAE075F1B7AD60200F73C9A /* Assets */,
-				2EAE075E1B7AD5F500F73C9A /* ViewControllers */,
-				2EAE075D1B7ACD4700F73C9A /* Category */,
-				2E03B19E1B79D1C400AE2C4B /* Supporting Files */,
-			);
-			path = WYUIViewBlockAnimation;
-			sourceTree = "<group>";
-		};
-		2E03B19E1B79D1C400AE2C4B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2E03B1A21B79D1C500AE2C4B /* AppDelegate.h */,
-				2E03B1A31B79D1C500AE2C4B /* AppDelegate.m */,
-				2E03B19F1B79D1C400AE2C4B /* Info.plist */,
-				2E03B1A01B79D1C400AE2C4B /* main.m */,
-				2EAE076C1B7AE25E00F73C9A /* ViewAnimationPrefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2E03B1B71B79D1C500AE2C4B /* WYUIViewBlockAnimationTests */ = {
-			isa = PBXGroup;
-			children = (
-				2E03B1BA1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m */,
-				2E03B1B81B79D1C500AE2C4B /* Supporting Files */,
-			);
-			path = WYUIViewBlockAnimationTests;
-			sourceTree = "<group>";
-		};
-		2E03B1B81B79D1C500AE2C4B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2E03B1B91B79D1C500AE2C4B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2EAE075D1B7ACD4700F73C9A /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				2E03B1C41B79D3A400AE2C4B /* UIView+Extension.h */,
-				2E03B1C51B79D3A400AE2C4B /* UIView+Extension.m */,
-				2EAE07781B7B365900F73C9A /* UIView+BlockGesture.h */,
-				2EAE07791B7B365900F73C9A /* UIView+BlockGesture.m */,
-			);
-			name = Category;
-			sourceTree = "<group>";
-		};
-		2EAE075E1B7AD5F500F73C9A /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE07771B7B355000F73C9A /* WYCIFilterTransitonViewController */,
-				2EAE07701B7B01CF00F73C9A /* WYTransitionLayerViewController */,
-				2EAE07681B7AE10D00F73C9A /* WYTransitionBlockViewController */,
-				2EAE07661B7AD85600F73C9A /* WYKeyframeAnimationViewController */,
-				2EAE07611B7AD64B00F73C9A /* WYAnimationLIstViewController */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		2EAE075F1B7AD60200F73C9A /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE07871B7B3BE600F73C9A /* Photo1@2x.jpg */,
-				2EAE07881B7B3BE600F73C9A /* Photo2@2x.jpg */,
-				2EAE07601B7AD61500F73C9A /* Xib */,
-				2E03B1AB1B79D1C500AE2C4B /* Images.xcassets */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		2EAE07601B7AD61500F73C9A /* Xib */ = {
-			isa = PBXGroup;
-			children = (
-				2E03B1A81B79D1C500AE2C4B /* Main.storyboard */,
-				2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */,
-			);
-			name = Xib;
-			sourceTree = "<group>";
-		};
-		2EAE07611B7AD64B00F73C9A /* WYAnimationLIstViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE07631B7AD69800F73C9A /* WYAnimationLIstViewController.h */,
-				2EAE07641B7AD69800F73C9A /* WYAnimationLIstViewController.m */,
-			);
-			name = WYAnimationLIstViewController;
-			sourceTree = "<group>";
-		};
-		2EAE07661B7AD85600F73C9A /* WYKeyframeAnimationViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2E03B1A51B79D1C500AE2C4B /* WYKeyframeAnimationViewController.h */,
-				2E03B1A61B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m */,
-			);
-			name = WYKeyframeAnimationViewController;
-			sourceTree = "<group>";
-		};
-		2EAE07671B7ADA0F00F73C9A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE077B1B7B369D00F73C9A /* TransitionImageView */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		2EAE07681B7AE10D00F73C9A /* WYTransitionBlockViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE07691B7AE14300F73C9A /* WYTransitionBlockViewController.h */,
-				2EAE076A1B7AE14300F73C9A /* WYTransitionBlockViewController.m */,
-			);
-			name = WYTransitionBlockViewController;
-			sourceTree = "<group>";
-		};
-		2EAE07701B7B01CF00F73C9A /* WYTransitionLayerViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE07711B7B01F700F73C9A /* WYTransitionLayerViewController.h */,
-				2EAE07721B7B01F700F73C9A /* WYTransitionLayerViewController.m */,
-			);
-			name = WYTransitionLayerViewController;
-			sourceTree = "<group>";
-		};
-		2EAE07771B7B355000F73C9A /* WYCIFilterTransitonViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE07741B7B354C00F73C9A /* WYCIFilterTransitonViewController.h */,
-				2EAE07751B7B354C00F73C9A /* WYCIFilterTransitonViewController.m */,
-			);
-			name = WYCIFilterTransitonViewController;
-			sourceTree = "<group>";
-		};
-		2EAE077B1B7B369D00F73C9A /* TransitionImageView */ = {
-			isa = PBXGroup;
-			children = (
-				2EAE077C1B7B36AF00F73C9A /* TransitionImageView.h */,
-				2EAE077D1B7B36AF00F73C9A /* TransitionImageView.m */,
-			);
-			name = TransitionImageView;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		2E03B19A1B79D1C400AE2C4B /* WYUIViewBlockAnimation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E03B1BE1B79D1C500AE2C4B /* Build configuration list for PBXNativeTarget "WYUIViewBlockAnimation" */;
-			buildPhases = (
-				2E03B1971B79D1C400AE2C4B /* Sources */,
-				2E03B1981B79D1C400AE2C4B /* Frameworks */,
-				2E03B1991B79D1C400AE2C4B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WYUIViewBlockAnimation;
-			productName = WYUIViewBlockAnimation;
-			productReference = 2E03B19B1B79D1C400AE2C4B /* WYUIViewBlockAnimation.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2E03B1B31B79D1C500AE2C4B /* WYUIViewBlockAnimationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E03B1C11B79D1C500AE2C4B /* Build configuration list for PBXNativeTarget "WYUIViewBlockAnimationTests" */;
-			buildPhases = (
-				2E03B1B01B79D1C500AE2C4B /* Sources */,
-				2E03B1B11B79D1C500AE2C4B /* Frameworks */,
-				2E03B1B21B79D1C500AE2C4B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E03B1B61B79D1C500AE2C4B /* PBXTargetDependency */,
-			);
-			name = WYUIViewBlockAnimationTests;
-			productName = WYUIViewBlockAnimationTests;
-			productReference = 2E03B1B41B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		2E03B1931B79D1C400AE2C4B /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = WymanY;
-				TargetAttributes = {
-					2E03B19A1B79D1C400AE2C4B = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					2E03B1B31B79D1C500AE2C4B = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 2E03B19A1B79D1C400AE2C4B;
-					};
-				};
-			};
-			buildConfigurationList = 2E03B1961B79D1C400AE2C4B /* Build configuration list for PBXProject "WYUIViewBlockAnimation" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 2E03B1921B79D1C400AE2C4B;
-			productRefGroup = 2E03B19C1B79D1C400AE2C4B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				2E03B19A1B79D1C400AE2C4B /* WYUIViewBlockAnimation */,
-				2E03B1B31B79D1C500AE2C4B /* WYUIViewBlockAnimationTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		2E03B1991B79D1C400AE2C4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E03B1AA1B79D1C500AE2C4B /* Main.storyboard in Resources */,
-				2EAE07891B7B3BE600F73C9A /* Photo1@2x.jpg in Resources */,
-				2E03B1AF1B79D1C500AE2C4B /* LaunchScreen.xib in Resources */,
-				2EAE078A1B7B3BE600F73C9A /* Photo2@2x.jpg in Resources */,
-				2E03B1AC1B79D1C500AE2C4B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E03B1B21B79D1C500AE2C4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		2E03B1971B79D1C400AE2C4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EAE077A1B7B365900F73C9A /* UIView+BlockGesture.m in Sources */,
-				2E03B1A71B79D1C500AE2C4B /* WYKeyframeAnimationViewController.m in Sources */,
-				2EAE07761B7B354C00F73C9A /* WYCIFilterTransitonViewController.m in Sources */,
-				2EAE077E1B7B36AF00F73C9A /* TransitionImageView.m in Sources */,
-				2EAE076B1B7AE14300F73C9A /* WYTransitionBlockViewController.m in Sources */,
-				2E03B1A41B79D1C500AE2C4B /* AppDelegate.m in Sources */,
-				2EAE07731B7B01F700F73C9A /* WYTransitionLayerViewController.m in Sources */,
-				2E03B1C61B79D3A400AE2C4B /* UIView+Extension.m in Sources */,
-				2E03B1A11B79D1C400AE2C4B /* main.m in Sources */,
-				2EAE07651B7AD69800F73C9A /* WYAnimationLIstViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E03B1B01B79D1C500AE2C4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E03B1BB1B79D1C500AE2C4B /* WYUIViewBlockAnimationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2E03B1B61B79D1C500AE2C4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E03B19A1B79D1C400AE2C4B /* WYUIViewBlockAnimation */;
-			targetProxy = 2E03B1B51B79D1C500AE2C4B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2E03B1A81B79D1C500AE2C4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E03B1A91B79D1C500AE2C4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2E03B1AD1B79D1C500AE2C4B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E03B1AE1B79D1C500AE2C4B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		2E03B1BC1B79D1C500AE2C4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2E03B1BD1B79D1C500AE2C4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2E03B1BF1B79D1C500AE2C4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/WYUIViewBlockAnimation/ViewAnimationPrefix.pch";
-				INFOPLIST_FILE = WYUIViewBlockAnimation/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2E03B1C01B79D1C500AE2C4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/WYUIViewBlockAnimation/ViewAnimationPrefix.pch";
-				INFOPLIST_FILE = WYUIViewBlockAnimation/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2E03B1C21B79D1C500AE2C4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WYUIViewBlockAnimationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYUIViewBlockAnimation.app/WYUIViewBlockAnimation";
-			};
-			name = Debug;
-		};
-		2E03B1C31B79D1C500AE2C4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WYUIViewBlockAnimationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYUIViewBlockAnimation.app/WYUIViewBlockAnimation";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2E03B1961B79D1C400AE2C4B /* Build configuration list for PBXProject "WYUIViewBlockAnimation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E03B1BC1B79D1C500AE2C4B /* Debug */,
-				2E03B1BD1B79D1C500AE2C4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E03B1BE1B79D1C500AE2C4B /* Build configuration list for PBXNativeTarget "WYUIViewBlockAnimation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E03B1BF1B79D1C500AE2C4B /* Debug */,
-				2E03B1C01B79D1C500AE2C4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E03B1C11B79D1C500AE2C4B /* Build configuration list for PBXNativeTarget "WYUIViewBlockAnimationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E03B1C21B79D1C500AE2C4B /* Debug */,
-				2E03B1C31B79D1C500AE2C4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 2E03B1931B79D1C400AE2C4B /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>2E03B1921B79D1C400AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B19D1B79D1C400AE2C4B</string>
+				<string>2E03B1B71B79D1C500AE2C4B</string>
+				<string>2E03B19C1B79D1C400AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1931B79D1C400AE2C4B</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0640</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>WymanY</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>2E03B19A1B79D1C400AE2C4B</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.4</string>
+					</dict>
+					<key>2E03B1B31B79D1C500AE2C4B</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.4</string>
+						<key>TestTargetID</key>
+						<string>2E03B19A1B79D1C400AE2C4B</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2E03B1961B79D1C400AE2C4B</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>2E03B1921B79D1C400AE2C4B</string>
+			<key>productRefGroup</key>
+			<string>2E03B19C1B79D1C400AE2C4B</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>2E03B19A1B79D1C400AE2C4B</string>
+				<string>2E03B1B31B79D1C500AE2C4B</string>
+			</array>
+		</dict>
+		<key>2E03B1961B79D1C400AE2C4B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2E03B1BC1B79D1C500AE2C4B</string>
+				<string>2E03B1BD1B79D1C500AE2C4B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2E03B1971B79D1C400AE2C4B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2EAE077A1B7B365900F73C9A</string>
+				<string>2E03B1A71B79D1C500AE2C4B</string>
+				<string>2EAE07761B7B354C00F73C9A</string>
+				<string>2EAE077E1B7B36AF00F73C9A</string>
+				<string>2EAE076B1B7AE14300F73C9A</string>
+				<string>2E03B1A41B79D1C500AE2C4B</string>
+				<string>2EAE07731B7B01F700F73C9A</string>
+				<string>2E03B1C61B79D3A400AE2C4B</string>
+				<string>2E03B1A11B79D1C400AE2C4B</string>
+				<string>2EAE07651B7AD69800F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E03B1981B79D1C400AE2C4B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E03B1991B79D1C400AE2C4B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2E03B1AA1B79D1C500AE2C4B</string>
+				<string>2EAE07891B7B3BE600F73C9A</string>
+				<string>2E03B1AF1B79D1C500AE2C4B</string>
+				<string>2EAE078A1B7B3BE600F73C9A</string>
+				<string>2E03B1AC1B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E03B19A1B79D1C400AE2C4B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2E03B1BE1B79D1C500AE2C4B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2E03B1971B79D1C400AE2C4B</string>
+				<string>2E03B1981B79D1C400AE2C4B</string>
+				<string>2E03B1991B79D1C400AE2C4B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WYUIViewBlockAnimation</string>
+			<key>productName</key>
+			<string>WYUIViewBlockAnimation</string>
+			<key>productReference</key>
+			<string>2E03B19B1B79D1C400AE2C4B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>2E03B19B1B79D1C400AE2C4B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WYUIViewBlockAnimation.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2E03B19C1B79D1C400AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B19B1B79D1C400AE2C4B</string>
+				<string>2E03B1B41B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B19D1B79D1C400AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE07671B7ADA0F00F73C9A</string>
+				<string>2EAE075F1B7AD60200F73C9A</string>
+				<string>2EAE075E1B7AD5F500F73C9A</string>
+				<string>2EAE075D1B7ACD4700F73C9A</string>
+				<string>2E03B19E1B79D1C400AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WYUIViewBlockAnimation</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B19E1B79D1C400AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1A21B79D1C500AE2C4B</string>
+				<string>2E03B1A31B79D1C500AE2C4B</string>
+				<string>2E03B19F1B79D1C400AE2C4B</string>
+				<string>2E03B1A01B79D1C400AE2C4B</string>
+				<string>2EAE076C1B7AE25E00F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>path</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B19F1B79D1C400AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1A01B79D1C400AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1A11B79D1C400AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1A01B79D1C400AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E03B1A21B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1A31B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1A41B79D1C500AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1A31B79D1C500AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E03B1A51B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WYKeyframeAnimationViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1A61B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WYKeyframeAnimationViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1A71B79D1C500AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1A61B79D1C500AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E03B1A81B79D1C500AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1A91B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>path</key>
+			<string>.</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1A91B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1AA1B79D1C500AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1A81B79D1C500AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E03B1AB1B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1AC1B79D1C500AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1AB1B79D1C500AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E03B1AD1B79D1C500AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1AE1B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>path</key>
+			<string>.</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1AE1B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1AF1B79D1C500AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1AD1B79D1C500AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E03B1B01B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2E03B1BB1B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E03B1B11B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E03B1B21B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2E03B1B31B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2E03B1C11B79D1C500AE2C4B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2E03B1B01B79D1C500AE2C4B</string>
+				<string>2E03B1B11B79D1C500AE2C4B</string>
+				<string>2E03B1B21B79D1C500AE2C4B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2E03B1B61B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WYUIViewBlockAnimationTests</string>
+			<key>productName</key>
+			<string>WYUIViewBlockAnimationTests</string>
+			<key>productReference</key>
+			<string>2E03B1B41B79D1C500AE2C4B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>2E03B1B41B79D1C500AE2C4B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WYUIViewBlockAnimationTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2E03B1B51B79D1C500AE2C4B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>2E03B1931B79D1C400AE2C4B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2E03B19A1B79D1C400AE2C4B</string>
+			<key>remoteInfo</key>
+			<string>WYUIViewBlockAnimation</string>
+		</dict>
+		<key>2E03B1B61B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>2E03B19A1B79D1C400AE2C4B</string>
+			<key>targetProxy</key>
+			<string>2E03B1B51B79D1C500AE2C4B</string>
+		</dict>
+		<key>2E03B1B71B79D1C500AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1BA1B79D1C500AE2C4B</string>
+				<string>2E03B1B81B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WYUIViewBlockAnimationTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1B81B79D1C500AE2C4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1B91B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>path</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1B91B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1BA1B79D1C500AE2C4B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WYUIViewBlockAnimationTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1BB1B79D1C500AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1BA1B79D1C500AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E03B1BC1B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.4</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2E03B1BD1B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.4</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2E03B1BE1B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2E03B1BF1B79D1C500AE2C4B</string>
+				<string>2E03B1C01B79D1C500AE2C4B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2E03B1BF1B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>$(SRCROOT)/WYUIViewBlockAnimation/ViewAnimationPrefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WYUIViewBlockAnimation/Supporting Files/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2E03B1C01B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>$(SRCROOT)/WYUIViewBlockAnimation/ViewAnimationPrefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WYUIViewBlockAnimation/Supporting Files/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2E03B1C11B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2E03B1C21B79D1C500AE2C4B</string>
+				<string>2E03B1C31B79D1C500AE2C4B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2E03B1C21B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>WYUIViewBlockAnimationTests/Supporting Files/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/WYUIViewBlockAnimation.app/WYUIViewBlockAnimation</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2E03B1C31B79D1C500AE2C4B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>WYUIViewBlockAnimationTests/Supporting Files/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/WYUIViewBlockAnimation.app/WYUIViewBlockAnimation</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2E03B1C41B79D3A400AE2C4B</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIView+Extension.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1C51B79D3A400AE2C4B</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIView+Extension.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2E03B1C61B79D3A400AE2C4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E03B1C51B79D3A400AE2C4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE075D1B7ACD4700F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1C41B79D3A400AE2C4B</string>
+				<string>2E03B1C51B79D3A400AE2C4B</string>
+				<string>2EAE07781B7B365900F73C9A</string>
+				<string>2EAE07791B7B365900F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Category</string>
+			<key>path</key>
+			<string>Category</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE075E1B7AD5F500F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE07771B7B355000F73C9A</string>
+				<string>2EAE07701B7B01CF00F73C9A</string>
+				<string>2EAE07681B7AE10D00F73C9A</string>
+				<string>2EAE07661B7AD85600F73C9A</string>
+				<string>2EAE07611B7AD64B00F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ViewControllers</string>
+			<key>path</key>
+			<string>ViewControllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE075F1B7AD60200F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE07871B7B3BE600F73C9A</string>
+				<string>2EAE07881B7B3BE600F73C9A</string>
+				<string>2EAE07601B7AD61500F73C9A</string>
+				<string>2E03B1AB1B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Assets</string>
+			<key>path</key>
+			<string>Assets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07601B7AD61500F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1A81B79D1C500AE2C4B</string>
+				<string>2E03B1AD1B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Xib</string>
+			<key>path</key>
+			<string>Xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07611B7AD64B00F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE07631B7AD69800F73C9A</string>
+				<string>2EAE07641B7AD69800F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WYAnimationLIstViewController</string>
+			<key>path</key>
+			<string>WYAnimationLIstViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07631B7AD69800F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WYAnimationLIstViewController.h</string>
+			<key>path</key>
+			<string>WYAnimationLIstViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07641B7AD69800F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>WYAnimationLIstViewController.m</string>
+			<key>path</key>
+			<string>WYAnimationLIstViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07651B7AD69800F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE07641B7AD69800F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE07661B7AD85600F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E03B1A51B79D1C500AE2C4B</string>
+				<string>2E03B1A61B79D1C500AE2C4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WYKeyframeAnimationViewController</string>
+			<key>path</key>
+			<string>WYKeyframeAnimationViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07671B7ADA0F00F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE077B1B7B369D00F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>View</string>
+			<key>path</key>
+			<string>View</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07681B7AE10D00F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE07691B7AE14300F73C9A</string>
+				<string>2EAE076A1B7AE14300F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WYTransitionBlockViewController</string>
+			<key>path</key>
+			<string>WYTransitionBlockViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07691B7AE14300F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WYTransitionBlockViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE076A1B7AE14300F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WYTransitionBlockViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE076B1B7AE14300F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE076A1B7AE14300F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE076C1B7AE25E00F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewAnimationPrefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07701B7B01CF00F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE07711B7B01F700F73C9A</string>
+				<string>2EAE07721B7B01F700F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WYTransitionLayerViewController</string>
+			<key>path</key>
+			<string>WYTransitionLayerViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07711B7B01F700F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WYTransitionLayerViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07721B7B01F700F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WYTransitionLayerViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07731B7B01F700F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE07721B7B01F700F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE07741B7B354C00F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WYCIFilterTransitonViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07751B7B354C00F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WYCIFilterTransitonViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07761B7B354C00F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE07751B7B354C00F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE07771B7B355000F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE07741B7B354C00F73C9A</string>
+				<string>2EAE07751B7B354C00F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>WYCIFilterTransitonViewController</string>
+			<key>path</key>
+			<string>WYCIFilterTransitonViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07781B7B365900F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIView+BlockGesture.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07791B7B365900F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIView+BlockGesture.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE077A1B7B365900F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE07791B7B365900F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE077B1B7B369D00F73C9A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EAE077C1B7B36AF00F73C9A</string>
+				<string>2EAE077D1B7B36AF00F73C9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TransitionImageView</string>
+			<key>path</key>
+			<string>TransitionImageView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE077C1B7B36AF00F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TransitionImageView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE077D1B7B36AF00F73C9A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TransitionImageView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE077E1B7B36AF00F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE077D1B7B36AF00F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE07871B7B3BE600F73C9A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.jpeg</string>
+			<key>path</key>
+			<string>Photo1@2x.jpg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07881B7B3BE600F73C9A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.jpeg</string>
+			<key>path</key>
+			<string>Photo2@2x.jpg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EAE07891B7B3BE600F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE07871B7B3BE600F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EAE078A1B7B3BE600F73C9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EAE07881B7B3BE600F73C9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>2E03B1931B79D1C400AE2C4B</string>
+</dict>
+</plist>
